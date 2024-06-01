@@ -1,0 +1,231 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppings:wght@300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: clash;
+    src: url(../batchproj/font/ClashDisplay-Variable.ttf);
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: clash;
+}
+
+body {
+    background: #FFFFFF;
+}
+
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.star1{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: calc(50% - 64px/2 + 847px);
+    top:70px;
+}
+
+.navbar a{
+    font-family: clash;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a:hover{
+    text-shadow: black;
+    cursor: pointer;
+    color:hotpink;
+}
+
+.button{
+    margin-left: 50px;
+    background-color: black;
+}
+
+.red0{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    left: 30%;
+    top: 20%;
+    background: #FF5555;
+    filter: blur(50px);
+}
+
+.hero{
+    position: absolute;
+    width: 50%;
+    height: 200px;
+    left: 12%;
+    top: 25%;
+    font-size: 45px;
+    line-height: 80px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.hero h1, p{
+    font-family: clash;
+    font-weight: 500;
+}
+
+.hero p{
+    position: absolute;
+    top: 100%;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.star2{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 - 800.06px);
+    top:20%;
+}
+
+.iphone1{
+    position: absolute;
+    left: 60%;
+    right: 29.15%;
+    top: 18%;
+    bottom: 88.37%;
+
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    z-index: 100;
+}
+
+.iphone2{
+    position: absolute;
+    left: 64.01%;
+    right: 20.65%;
+    top: 24%;
+    bottom: 87.05%;
+
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    z-index: 90;
+}
+
+.iphone3{
+    position: absolute;
+    left: 68%;
+    right: 11%;
+    top: 30%;
+    bottom: 85.70%;
+
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    z-index: 80;
+}
+
+.ellipse1{
+    box-sizing: border-box;
+    position: absolute;
+    width: 383.17px;
+    height: 551.56px;
+    right: 10%;
+    top: 310px;
+}
+
+.ellipse2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 383.17px;
+    height: 551.56px;
+    right: 8%;
+    top: 290px;
+}
+
+.ellipse3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 383.17px;
+    height: 551.56px;
+    right: 6%;
+    top: 270px;
+}
+
+.red1{
+    position: absolute;
+    width: 397.43px;
+    height: 214.11px;
+    left: calc(50% - 397.43px/2 + 500.95px);
+    top: calc(50% - 214.11px/2 + 235.02px);
+    background: #FF5555;
+    filter: blur(51.5773px);
+    transform: rotate(150deg);
+}
+
+.start{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    left: 12%;
+    top: 55%;
+}
+
+.watch{
+    font-family: clash;
+    font-display: flex;
+    position: absolute;
+    background: transparent;
+    width: 180px;
+    height: 70px;
+    left: 24%;
+    top: 55%;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 300;
+    border: none;
+}
+
+.AtoZ{
+position: absolute;
+width: 512.36px;
+height: 400px;
+left: 12%;
+top: 65%;
+}
+
+.star3{
+position: absolute;
+width: 48px;
+height: 48px;
+left: calc(50% - 48px/2 - 600.06px);
+top: calc(50% - 48px/2 + 245.5px);
+}
+
+.star4{
+position: absolute;
+width: 48px;
+height: 48px;
+left: calc(50% - 48px/2 + 300.43px);
+top: 80%;
+z-index: 70;
+}
+
+.iphone4{
+position: absolute;
+right: 63.18%;
+top: 100.85%;
+
+filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+
+}
