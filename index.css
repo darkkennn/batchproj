@@ -17,7 +17,7 @@ body {
 }
 
 .header{
-    position:fixed;
+    position:absolute;
     width: 100%;
     padding: 30px 100px;
     display: flex;
@@ -200,56 +200,56 @@ body {
 }
 
 .AtoZ{
-position: absolute;
-width: 512.36px;
-height: 400px;
-left: 12%;
-top: 65%;
+    position: absolute;
+    width: 512.36px;
+    height: 400px;
+    left: 12%;
+    top: 65%;
 }
 
 .star3{
-position: absolute;
-width: 48px;
-height: 48px;
-left: calc(50% - 48px/2 - 600.06px);
-top: calc(50% - 48px/2 + 245.5px);
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 - 600.06px);
+    top: calc(50% - 48px/2 + 245.5px);
 }
 
 .star4{
-position: absolute;
-width: 48px;
-height: 48px;
-left: calc(50% - 48px/2 + 300.43px);
-top: 80%;
-z-index: 70;
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: calc(50% - 48px/2 + 300.43px);
+    top: 80%;
+    z-index: 70;
 }
 
 .iphone4{
-position: absolute;
-right: 63.18%;
-top: 100.85%;
-filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
-transform: rotate(15deg);
-z-index: 100;
+    position: absolute;
+    right: 63.18%;
+    top: 100.85%;
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    transform: rotate(15deg);
+    z-index: 100;
 }
 
 .red2{
-position: absolute;
-width: 550px;
-height: 500px;
-left: 100px;
-top: 1000.85px;
-transform: matrix(1, 0, 0, -1, 0, 0);
+    position: absolute;
+    width: 550px;
+    height: 500px;
+    left: 2%;
+    top: 100%;
+    transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .ellipse4{
-box-sizing: border-box;
-position: absolute;
-width: 380px;
-height: 547px;
-left: 8%;
-top: 1050px;
-transform: rotate(-25deg);
+    box-sizing: border-box;
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    left: 8%;
+    top: 110%;
+    transform: rotate(-25deg);
 }
 
 .ellipse5{
@@ -257,8 +257,8 @@ transform: rotate(-25deg);
     position: absolute;
     width: 380px;
     height: 547px;
-    left: 10%;
-    top: 1050px;
+    left: 8%;
+    top: 105%;
     transform: rotate(-25deg);
 }
 
@@ -267,9 +267,26 @@ transform: rotate(-25deg);
     position: absolute;
     width: 380px;
     height: 547px;
-    left: 12%;
-    top: 1050px;
+    left: 8%;
+    top: 100%;
     transform: rotate(-25deg);
+}
+
+.star5{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 2%;
+    top: calc(50% - 48px/2 + 673.79px);
+    transform: rotate(15deg);
+}
+
+.red3{
+    position: absolute;
+    width: 327px;
+    height: 237.26px;
+    right:-10%;
+    top: 105%;
 }
 
 .premium{
@@ -277,7 +294,7 @@ transform: rotate(-25deg);
     width: 638px;
     height: 56px;
     left: calc(50% - 638px/2 + 329px);
-    top: 1100px;
+    top: 110%;
     font-family: clash;
 }
 
@@ -288,16 +305,16 @@ transform: rotate(-25deg);
 }
 
 .premium h1{
-    margin-top:30px;
+    margin-top:5%;
     margin-bottom: 30px;
     font-weight: bold;
-    font-size: 60px;;
+    font-size: 60px;
     line-height: 30px;
 }
 
 .premium h2{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-style: normal;
     font-weight: 600;
     line-height: 30px;
@@ -312,3 +329,233 @@ transform: rotate(-25deg);
     color: #000000;
     opacity: 0.5;
 }
+
+.iphone5{
+    position: absolute;
+    right: 15%;
+    top: 165%;
+    bottom: 51.85%;
+    filter: drop-shadow(48px 48px 100px rgba(0, 0, 0, 0.2));
+    transform: rotate(15deg);
+    z-index: 100;
+}
+
+.circles{
+    position: absolute;
+    width: 719.49px;
+    height: 719.49px;
+    left: 40%;
+    top: 158.249%;
+}
+
+.ellipse7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    left: calc(50% - 380px/2 + 229px);
+    top: calc(50% - 547px/2 + 10.81px);
+    transform: rotate(-30deg)
+}
+
+.ellipse8{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    left: calc(50% - 380px/2 + 229px);
+    top: calc(50% - 547px/2 + 60.81px);
+    transform: rotate(-30deg)
+}
+
+.ellipse9{
+    box-sizing: border-box;
+    position: absolute;
+    width: 380px;
+    height: 547px;
+    left: calc(50% - 380px/2 + 229px);
+    top: calc(50% - 547px/2 + 110.81px);
+    transform: rotate(-30deg)
+}
+
+.red4{
+    position: absolute;
+    width: 292.96px;
+    height: 157.83px;
+    left: calc(50% - 292.96px/2 + 327.52px);
+    top: calc(50% - 157.83px/2 + 1572.88px);
+
+    background: #FF5555;
+    filter: blur(51.5773px);
+}
+
+.visa{
+    position: absolute;
+    width: 260.3px;
+    height: 159.31px;
+    right: 18.78%;
+    top: 182.7%;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    z-index:100;
+}
+
+.customise{
+    font-family: clash;
+    position: absolute;
+    width: 562px;
+    height: 211px;
+    left: 10%;
+    top: 182.798%;
+}
+
+.customise h1{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 30px;
+}
+
+.customise p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.star6{
+    position:absolute;
+    top:2076px;
+    right: 826px;
+}
+
+.testimonial{
+    position: absolute;
+    width: 1185px;
+    height: 821px;
+    left: 5%;
+    top: 247.6%;
+}
+
+.testimonial h3{
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 51%;
+    font-family: Clash;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.testimonial h1{
+    position: absolute;
+    width: 455px;
+    height: 96px;
+    left: 40%;
+    top: 5%;
+    font-family: Clash;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.testimonial h2{
+    position: absolute;
+    width: 442px;
+    height: 56px;
+    left: calc(50% - 442px/2 + 526px);
+    top: 22%;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.testimonial p{
+    position:absolute;
+    top: 32.6%;
+    left: calc(50% - 442px/2 + 526px);
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.users{
+    position: absolute;
+    width: 670.37px;
+    height: 670.89px;
+    left: 160.43px;
+    top: 20%;
+    z-index: 100
+}
+
+.ellipse10{
+    position: absolute;
+    left: 18%;
+    top: 22%;
+    z-index:90;
+}
+
+.ellipse11{
+    position: absolute;
+    left: 16%;
+    top: 26%;
+    z-index:90;
+}
+
+.ellipse12{
+    position: absolute;
+    left: 14%;
+    top: 30%;
+    z-index:90;
+}
+
+.red5{
+    position: absolute;
+    top: 19%;
+    left:14%;
+    filter: blur(40px)
+}
+
+.usersmall{
+    position:absolute;
+    top: 65%;
+    left: calc(50% - 442px/2 + 526px);
+}
+
+.testimonial h2[target='_self']{
+    position:absolute;
+    top: 75%;
+    left: calc(50% - 442px/2 + 526px);
+    float:left;
+}
+
+.star8{
+    position: absolute;
+    left: 4%;
+    top: 90%;
+}
+
