@@ -8,6 +8,8 @@ so here I present to you, Batch-uiFry.
 The font was missing so I tried to custom add the font but it didn't seem to work that well. I have yet to align the download button to the navbar and so many more fixes, but I had an exam today so I didn't have much time to complete it. I'm submitting this
 incomplete project because of deadlines that are approaching but I hope I get a day more to make all the fixes and changes.
 
+Upadte: I added the FAQ and the footer. I used nth-child feature to make it clear as to which paragraph im styling.
+
 Lastly,
 I hope you like this replica project and grant me the opportunity to learn under you.
 

@@ -507,7 +507,7 @@ body {
     position: absolute;
     width: 670.37px;
     height: 670.89px;
-    left: 160.43px;
+    left: 13%;
     top: 20%;
     z-index: 100
 }
@@ -559,3 +559,272 @@ body {
     top: 90%;
 }
 
+.FAQ{
+    position: absolute;
+    display: flex;
+    width: 1090px;
+    height: 751px;
+    left: 175px;
+    top: 339.0%;
+}
+
+.FAQ h3{
+    position: absolute;
+    width: 44px;
+    height: 28px;
+    top: 5%;
+    left: calc(50% - 44px/2 - 523px);
+    font-family: clash;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #FF5555;
+}
+
+.FAQ h1{
+    position: absolute;
+    width: 497px;
+    height: 96px;
+    top:10%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.FAQ ul > li {
+    list-style-type: none;
+}
+
+.FAQ li:nth-child(1) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top:25%;
+    width: 40%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+
+.FAQ li:nth-child(1) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:8%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+
+.FAQ li:nth-child(5) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top: 97%;
+    width: 40%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+
+.FAQ li:nth-child(5) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:80%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+.FAQ li:nth-child(4) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top:55%;
+    left: 60%;
+    width: 40%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+
+.FAQ li:nth-child(4) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:38%;
+    left: 60%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #FF5555;
+}
+
+.FAQ li:nth-child(2) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top:25%;
+    width: 40%;
+    left: 60%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.FAQ li:nth-child(2) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:8%;
+    left: 60%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.FAQ li:nth-child(3) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top:55%;
+    width: 40%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.FAQ li:nth-child(3) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:38%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.FAQ li:nth-child(2) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top:25%;
+    width: 40%;
+    left: 60%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.FAQ li:nth-child(2) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:8%;
+    left: 60%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.FAQ li:nth-child(6) h2{
+    padding: 10px 20px;
+    position: absolute;
+    top: 97%;
+    width: 40%;
+    left: 60%;
+    height: 20%;
+    font-family: clash;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.FAQ li:nth-child(6) p{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 10px 20px;
+    position:absolute;
+    top:80%;
+    left: 60%;
+    width: 40%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 40px;
+    text-transform: capitalize;
+    color: #000000;
+    opacity: 0.5;
+}
